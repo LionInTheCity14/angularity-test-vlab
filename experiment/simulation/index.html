@@ -1,33 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" />
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/loading.css" />
 
-    <link rel="stylesheet" href="styles/loading.css">
+    <script src="scripts/main.js" defer></script>
 
     <title>Civil Engineering - Virtual Labs</title>
-</head>
-<body>
-    <body style="margin: 0; border: 2px solid red; font-family: verdana; color: #000;">
-        <table align="center">
-            <tr>
-                <td>
-                    <div id="simscreen">
-                        <div id="title">
-                            <h3>Angularity Test</h3>
-                        </div>
-                        
-                    </div>
-                </td>
-            </tr>
-        </table>
+  </head>
+  <body>
+    <body style="margin: 0; font-family: verdana; color: #000">
+      <table align="center">
+        <tr>
+          <td>
+            <div id="simscreen">
+              <div id="title">
+                <h3>Angularity Test</h3>
+              </div>
+
+              <!-- Step 1 -->
+
+              <div
+                class="mainstep"
+                id="step1"
+                style="visibility: hidden; z-index: 1000"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;1&nbsp;</span
+                ><br />
+
+                <p
+                  class="incanvas"
+                  style="
+                    position: absolute;
+                    top: 55px;
+                    left: 0px;
+                    font-size: 15px;
+                  "
+                >
+                  <strong>Objective:</strong>
+                </p>
+
+                <p
+                  class="incanvas"
+                  style="position: absolute; top: 85px; left: 0px; font: 15px"
+                >
+                  determine the angularity number of aggregate.
+                </p>
+
+                <p
+                  class="incanvas"
+                  style="
+                    position: absolute;
+                    top: 115px;
+                    left: 0px;
+                    font-size: 14px;
+                  "
+                >
+                  <strong>Appratus used:</strong>
+                </p>
+
+                <p
+                  class="incanvas"
+                  style="
+                    position: absolute;
+                    top: 145px;
+                    left: 0px;
+                    font-size: 15px;
+                  "
+                >
+                  BS test sieves: 20.0 mm, 14.00 mm, 10.00 mm, 6.30 mm, 5.0 mm, a balance of capacity 10kg and accurate to 1, a metal cylinder(150mm * 150mm)
+                </p>
+
+                <img
+                  src="images/Angularity Test.png"
+                  alt="picture"
+                  width="550px"
+                  height="330px"
+                  style="padding-left: 7%; margin-top: 200px"
+                />
+
+                <input
+                  type="button"
+                  id="next"
+                  style="
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Start Here&nbsp;"
+                  onclick="step2()"
+                />
+              </div>
+
+              <!-- Step 2 -->
+
+              <div
+                class="mainstep"
+                id="step2"
+                style="visibility: visible; z-index: 999"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;2&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content&nbsp;
+                  </i></span
+                >
+
+                <img
+                  src="images/Angularity Test.png"
+                  alt="picture"
+                  width="550px"
+                  height="330px"
+                  style="padding-left: 7%; margin-top: 150px"
+                />
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
     </body>
-</body>
+  </body>
 </html>
