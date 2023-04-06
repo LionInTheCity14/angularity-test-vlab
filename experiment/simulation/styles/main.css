@@ -3,6 +3,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+    padding: 0;
+    padding: 10px 16px;
+    display: flex;   
+}
+
+.subject {
+    margin: auto auto auto 25px;
+}
+
+.header-img {
+    margin: 0 0 0 auto;
+    height: 90px;
+
+}
+
+.header-img2 {
+    height: 90px;
+    margin: 0;
+}
+
 #title{
     position: relative;
     left: 0px;

@@ -20,6 +20,19 @@
     <title>Civil Engineering - Virtual Labs</title>
   </head>
   <body>
+
+    <div class="header">
+      <img class="header-img" src="images/header.png" alt="virtual-lab-logo">
+      <h2 class="subject">Virtual Lab</h2>
+      <img class="header-img2" src="images/dei.jpg" alt="dei-logo"> 
+    </div
+
+    <div class="topnav" id="myHeader">
+      <a class="active" href="#home"></a>
+      <a href="#news"></a>
+      <a href="#about"></a>
+    </div>
+
     <body style="margin: 0; font-family: verdana; color: #000">
       <table align="center">
         <tr>
@@ -94,7 +107,7 @@
                 </p>
 
                 <img
-                  src="images/Angularity Test-1.png"
+                  src="images/image.png"
                   alt="picture"
                   width="550px"
                   height="330px"
@@ -367,7 +380,7 @@ please use border to place and visualize arrows, transbox and all html elements 
                 <!-- IMAGES  -->
 
                 <img
-                  src="images/"
+                  src="images/image.png"
                   alt="image"
                   class="board"
                   id="png1-step3"
@@ -424,7 +437,7 @@ please use border to place and visualize arrows, transbox and all html elements 
                   width="100"
                   height="120"
                   style="
-                    visibility: visible;
+                    visibility: hidden;
                     background-color: none;
                     position: absolute;
                     margin-left: 540px;
@@ -461,7 +474,7 @@ please use border to place and visualize arrows, transbox and all html elements 
               <div
                 class="mainstep"
                 id="step4"
-                style="visibility: hidden; z-index: 998"
+                style="visibility: hidden; z-index: 997"
               >
                 <strong
                   class="incanvas"
@@ -481,6 +494,77 @@ please use border to place and visualize arrows, transbox and all html elements 
                   </i></span
                 >
 
+                <!-- IMAGES  -->
+
+                <img
+                  src="images/image.png"
+                  alt="image"
+                  class="board"
+                  id="png1-step4"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- GIFS  -->
+
+                <img
+                  src="images/step4-water-weight-gif.gif"
+                  alt="image"
+                  class="board"
+                  id="gif1-step4"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- ARROWS  -->
+
+                <img
+                  id="arr1-step4"
+                  class="board"
+                  src="images/arrow left.gif"
+                  alt="picture"
+                  width="85"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 41rem;
+                    margin-top: 200px;
+                  "
+                />
+
+                <!-- TRANSBOXES  -->
+
+                <img
+                  id="trans1-step4"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="100"
+                  height="120"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 540px;
+                    margin-top: 160px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="movebeaker1Step4()"
+                />
+
                 <input
                   type="button"
                   id="next-to-step5"
@@ -498,6 +582,499 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step5()"
+                />
+              </div>
+
+              <!-- STEP 5  -->
+
+              <div
+                class="mainstep"
+                id="step5"
+                style="visibility: hidden; z-index: 996"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;5&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <img
+                  src="images/image.png"
+                  alt="image"
+                  class="board"
+                  id="png1-step5"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- GIFS  -->
+
+                <img
+                  src="images/step5-empty-tray-weighting-gif.gif"
+                  alt="image"
+                  class="board"
+                  id="gif1-step5"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <img
+                  src="images/step5-empty-tray-return-gif.gif"
+                  alt="image"
+                  class="board"
+                  id="gif2-step5"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- ARROWS  -->
+
+                <img
+                  id="arr1-step5"
+                  class="board"
+                  src="images/arrow left.gif"
+                  alt="picture"
+                  width="85"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 41rem;
+                    margin-top: 200px;
+                  "
+                />
+
+                <img
+                  id="arr2-step5"
+                  class="board"
+                  src="images/arrow right.gif"
+                  alt="picture"
+                  width="70"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 6rem;
+                    margin-top: 480px;
+                    /* border: 1px solid red; */
+                  "
+                />
+
+                <!-- TRANSBOXES  -->
+
+                <img
+                  id="trans1-step5"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="250"
+                  height="120"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 430px;
+                    margin-top: 160px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveplate1Step5()"
+                />
+
+                <img
+                  id="trans2-step5"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="30"
+                  height="30"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 155px;
+                    margin-top: 495px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="clickTare1Step5()"
+                />
+
+                <input
+                  type="button"
+                  id="next-to-step6"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step6()"
+                />
+              </div>
+
+              <!-- STEP 6 -->
+
+              <div
+                class="mainstep"
+                id="step6"
+                style="visibility: hidden; z-index: 995"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;6&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <img
+                  src="images/image.png"
+                  alt="image"
+                  class="board"
+                  id="png1-step6"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- GIFS  -->
+
+                <img
+                  src="images/step6-aggregates-weight-gif.gif"
+                  alt="image"
+                  class="board"
+                  id="gif1-step6"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
+                <!-- ARROWS  -->
+
+                <img
+                  id="arr1-step6"
+                  class="board"
+                  src="images/arrow left.gif"
+                  alt="picture"
+                  width="85"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 41rem;
+                    margin-top: 200px;
+                  "
+                />
+
+                <!-- TRANSBOXES  -->
+
+                <img
+                  id="trans1-step6"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="250"
+                  height="120"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 430px;
+                    margin-top: 160px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveplate1Step6()"
+                />
+
+
+                <input
+                  type="button"
+                  id="next-to-step7"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step7()"
+                />
+              </div>
+
+              <!-- STEP 7 -->
+
+              <div
+                class="mainstep"
+                id="step7"
+                style="visibility: hidden; z-index: 994"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;7&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <!-- GIFS  -->
+
+                <!-- ARROWS  -->
+
+                <!-- TRANSBOXES  -->
+
+                <input
+                  type="button"
+                  id="next-to-step8"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step8()"
+                />
+              </div>
+
+              <!-- STEP 8  -->
+
+              <div
+                class="mainstep"
+                id="step8"
+                style="visibility: hidden; z-index: 993"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;8&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <!-- GIFS  -->
+
+                <!-- ARROWS  -->
+
+                <!-- TRANSBOXES  -->
+
+                <input
+                  type="button"
+                  id="next-to-step9"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step9()"
+                />
+              </div>
+
+              <!-- STEP 9  -->
+
+              <div
+                class="mainstep"
+                id="step9"
+                style="visibility: hidden; z-index: 992"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;9&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <!-- GIFS  -->
+
+                <!-- ARROWS  -->
+
+                <!-- TRANSBOXES  -->
+
+                <input
+                  type="button"
+                  id="next-to-step10"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step10()"
+                />
+              </div>
+
+              <!-- STEP 10  -->
+
+              <div
+                class="mainstep"
+                id="step10"
+                style="visibility: hidden; z-index: 991"
+              >
+                <strong
+                  class="incanvas"
+                  style="position: absolute; top: 20px; left: 0px"
+                  >STEP</strong
+                >
+
+                <span
+                  class="circlebg"
+                  style="position: absolute; top: 28px; left: 57px"
+                  >&nbsp;10&nbsp;</span
+                >
+
+                <span style="position: absolute; left: 85px; top: 30px"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true">
+                    &nbsp;Content will come here.&nbsp;
+                  </i></span
+                >
+
+                <!-- IMAGES  -->
+
+                <!-- GIFS  -->
+
+                <!-- ARROWS  -->
+
+                <!-- TRANSBOXES  -->
+
+                <input
+                  type="button"
+                  id="next-to-step11"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 662px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Next&nbsp;"
+                  onclick="step11()"
                 />
               </div>
             </div>
