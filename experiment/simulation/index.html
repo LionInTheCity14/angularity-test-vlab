@@ -887,17 +887,66 @@ please use border to place and visualize arrows, transbox and all html elements 
 
                 <span style="position: absolute; left: 85px; top: 30px"
                   ><i class="fa fa-hand-o-right" aria-hidden="true">
-                    &nbsp;Content will come here.&nbsp;
+                    &nbsp;Arrange the sieves in descending order, with the largest aperture size at the top and the smallest one at the bottom and place a pan below the lower most sieve.&nbsp;
                   </i></span
                 >
 
                 <!-- IMAGES  -->
 
+                <img
+                  src="images/step7-assemble-sieves.png"
+                  alt="image"
+                  class="board"
+                  id="png1-step7"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 120px;
+                  "
+                />
+
                 <!-- GIFS  -->
 
-                <!-- ARROWS  -->
+                <img
+                  src="images/step7-seives-assembling.gif"
+                  alt="image"
+                  class="board"
+                  id="gif1-step7"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 120px;
+                  "
+                />
 
-                <!-- TRANSBOXES  -->
+                <!-- Button to Assemble the sieves  -->
+
+                <input
+                  type="button"
+                  id="assembleSieves1-step7"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 335px;
+                    top: 450px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Assemble&nbsp;"
+                  onclick="sieveAssemble1Step7()"
+                />
+
+                <!-- Next Button  -->
 
                 <input
                   type="button"
@@ -940,17 +989,80 @@ please use border to place and visualize arrows, transbox and all html elements 
 
                 <span style="position: absolute; left: 85px; top: 30px"
                   ><i class="fa fa-hand-o-right" aria-hidden="true">
-                    &nbsp;Content will come here.&nbsp;
+                    &nbsp;Now, put the weighed aggregates on the sieve stack.&nbsp;
                   </i></span
                 >
 
                 <!-- IMAGES  -->
 
+                <img
+                  src="images/step8-png1.png"
+                  alt="image"
+                  class="board"
+                  id="png1-step8"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
+
                 <!-- GIFS  -->
+
+                <img
+                  src="images/step8-aggregate-pouring.gif"
+                  alt="image"
+                  class="board"
+                  id="gif1-step8"
+                  width="605"
+                  height="385"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 70px;
+                    margin-top: 150px;
+                  "
+                />
 
                 <!-- ARROWS  -->
 
+                <img
+                  id="arr1-step8"
+                  class="board"
+                  src="images/arrow right.gif"
+                  alt="picture"
+                  width="80"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 4rem;
+                    margin-top: 320px;
+                  "
+                />
+
                 <!-- TRANSBOXES  -->
+
+                <img
+                  id="trans1-step8"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="145"
+                  height="60"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 135px;
+                    margin-top: 310px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveplate1Step8()"
+                />
 
                 <input
                   type="button"
@@ -991,19 +1103,274 @@ please use border to place and visualize arrows, transbox and all html elements 
                   >&nbsp;9&nbsp;</span
                 >
 
-                <span style="position: absolute; left: 85px; top: 30px"
-                  ><i class="fa fa-hand-o-right" aria-hidden="true">
-                    &nbsp;Content will come here.&nbsp;
+                <span style="position: absolute; left: 85px; top: 30px" id="title-step9"
+                  ><i class="fa fa-hand-o-right" aria-hidden="true" id="step9-content">
+                    &nbsp;Cover the sieve stack with the lid and place it on the sieve shaker. Start the sieve shaker, and after some time, remove the sieves and record the aggregates collected in each sieve.&nbsp;
                   </i></span
                 >
 
                 <!-- IMAGES  -->
 
+                <img
+                src="images/step9-png1.png"
+                alt="image"
+                class="board"
+                id="png1-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
+
+              <img
+                src="images/step9-png2.png"
+                alt="image"
+                class="board"
+                id="png2-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
+
                 <!-- GIFS  -->
+
+                <img
+                src="images/step9-gif1.gif"
+                alt="image"
+                class="board"
+                id="gif1-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
+
+              <img
+                src="images/step9-gif2.gif"
+                alt="image"
+                class="board"
+                id="gif2-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
+
+              <img
+                src="images/step9-gif3.gif"
+                alt="image"
+                class="board"
+                id="gif3-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
+
+              <img
+                src="images/step9-gif4.gif"
+                alt="image"
+                class="board"
+                id="gif4-step9"
+                width="605"
+                height="385"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 70px;
+                  margin-top: 150px;
+                "
+              />
 
                 <!-- ARROWS  -->
 
+                <img
+                  id="arr1-step9"
+                  class="board"
+                  src="images/arrow right.gif"
+                  alt="picture"
+                  width="80"
+                  height="50"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    margin-left: 0.1rem;
+                    margin-top: 150px;
+                  "
+                />
+
+                <img
+                id="arr2-step9"
+                class="board"
+                src="images/arrow right.gif"
+                alt="picture"
+                width="80"
+                height="50"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 0.1rem;
+                  margin-top: 375px;
+                "
+              />
+
+              <img
+                id="arr3-step9"
+                class="board"
+                src="images/arrow left.gif"
+                alt="picture"
+                width="40"
+                height="30"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 28.5rem;
+                  margin-top: 440px;
+                "
+              />
+
+              <img
+                id="arr4-step9"
+                class="board"
+                src="images/arrow left.gif"
+                alt="picture"
+                width="80"
+                height="50"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 33rem;
+                  margin-top: 175px;
+                "
+              />
+
+              <img
+                id="arr5-step9"
+                class="board"
+                src="images/arrow right.gif"
+                alt="picture"
+                width="80"
+                height="50"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  margin-left: 4rem;
+                  margin-top: 375px;
+                "
+              />
+
                 <!-- TRANSBOXES  -->
+
+                <img
+                  id="trans1-step9"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="145"
+                  height="60"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 75px;
+                    margin-top: 150px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveSieves1Step9()"
+                />
+
+                <img
+                  id="trans2-step9"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="145"
+                  height="230"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 75px;
+                    margin-top: 300px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveSieves2Step9()"
+                />
+
+                <img
+                  id="trans3-step9"
+                  class="board"
+                  src="images/transbox.png"
+                  alt="picture"
+                  width="30"
+                  height="30"
+                  style="
+                    visibility: hidden;
+                    background-color: none;
+                    position: absolute;
+                    margin-left: 435px;
+                    margin-top: 440px;
+                    /* border: 1px solid red; */
+                  "
+                  onclick="moveSieves3Step9()"
+                />
+
+                <img
+                id="trans4-step9"
+                class="board"
+                src="images/transbox.png"
+                alt="picture"
+                width="160"
+                height="230"
+                style="
+                  visibility: hidden;
+                  background-color: none;
+                  position: absolute;
+                  margin-left: 370px;
+                  margin-top: 190px;
+                  /* border: 1px solid red; */
+                "
+                onclick="moveSieves4Step9()"
+              />
+
+              <img
+              id="trans5-step9"
+              class="board"
+              src="images/transbox.png"
+              alt="picture"
+              width="145"
+              height="230"
+              style="
+                visibility: hidden;
+                background-color: none;
+                position: absolute;
+                margin-left: 150px;
+                margin-top: 300px;
+                /* border: 1px solid red; */
+              "
+              onclick="moveSieves5Step9()"
+            />
 
                 <input
                   type="button"
@@ -1044,7 +1411,7 @@ please use border to place and visualize arrows, transbox and all html elements 
                   >&nbsp;10&nbsp;</span
                 >
 
-                <span style="position: absolute; left: 85px; top: 30px"
+                <span style="position: absolute; left: 100px; top: 30px"
                   ><i class="fa fa-hand-o-right" aria-hidden="true">
                     &nbsp;Content will come here.&nbsp;
                   </i></span
