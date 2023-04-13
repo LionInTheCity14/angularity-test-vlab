@@ -489,3 +489,35 @@ function step11(){
   document.querySelector("#arr1-step11").style.visibility = "visible";
   document.querySelector("#trans1-step11").style.visibility = "visible";
 }
+
+function movebeaker1Step11(){
+  document.querySelector("#png1-step11").style.visibility = "hidden";
+  document.querySelector("#arr1-step11").style.visibility = "hidden";
+  document.querySelector("#trans1-step11").style.visibility = "hidden";
+
+  document.querySelector("#gif1-step11").style.visibility = "visible";
+
+  myTimeout = setTimeout(myGreeting1Step11, 2500);
+}
+
+// TIME FUNCTIONS OF STEP 11
+
+function myGreeting1Step11(){
+  document.querySelector("#next-to-step12").style.visibility = "visible"
+
+  myStopFunction();
+}
+
+// STEP 12
+
+function step12(){
+  document.querySelector("#step11").style.visibility = "hidden";
+  document.querySelector("#gif1-step11").style.visibility = "hidden";
+  document.querySelector("#next-to-step12").style.visibility = "hidden";
+
+  document.querySelector("#step12").style.visibility = "visible";
+
+  document.querySelector("#png1-step12").style.visibility = "visible";
+  document.querySelector("#arr1-step12").style.visibility = "visible";
+  document.querySelector("#trans1-step12").style.visibility = "visible";
+}
