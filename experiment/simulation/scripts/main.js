@@ -72,6 +72,7 @@ function step3() {
   document.querySelector("#step2").style.visibility = "hidden";
 
   document.querySelector("#step3").style.visibility = "visible";
+  document.querySelector("#png1-step3").style.visibility = "visible";
   document.querySelector("#arr1-step3").style.visibility = "visible";
   document.querySelector("#trans1-step3").style.visibility = "visible";
 }
